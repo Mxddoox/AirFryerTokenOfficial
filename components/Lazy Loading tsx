@@ -1,4 +1,0 @@
-const InteractiveModel = dynamic(() => import('./InteractiveModel'), {
-  ssr: false,
-  loading: () => <Skeleton className="h-[400px]" />
-})
